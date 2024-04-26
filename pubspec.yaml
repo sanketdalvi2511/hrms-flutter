@@ -1,0 +1,26 @@
+name: hrms_app
+description: A Human Resource Management System (HRMS) app
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  provider: ^6.1.2
+  table_calendar: ^3.0.0
+
+flutter:
+  assets:
+    - assets/hrms.jpg
+  # The following line ensures that the Material Icons font is
+  # included with your application, so you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
